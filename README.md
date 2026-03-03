@@ -4,13 +4,16 @@
 A classic **Hangman** game implemented in Python. Test your vocabulary by guessing the hidden word before the gallows are complete!
 
 📝 Game Rules
+
 The game displays underscores _ representing each letter of the hidden word.
 Input one letter at a time.
 Correct guess: The letter reveals its position in the word.
 Wrong guess: A part of the hangman is drawn. You have 7 lives in total.
 Duplicate guess: A warning is shown, but no lives are lost.
 Win by guessing all letters, or lose if the hangman is fully displayed!
+
 🤝 Contributing
+
 Contributions are welcome! If you'd like to add new features (like difficulty levels or a score system), feel free to fork the repo and submit a pull request.
 
 ## 🚀 Features
