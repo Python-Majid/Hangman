@@ -16,6 +16,8 @@ Win by guessing all letters, or lose if the hangman is fully displayed!
 
 Contributions are welcome! If you'd like to add new features (like difficulty levels or a score system), feel free to fork the repo and submit a pull request.
 
+⭐ If you liked this project, feel free to give it a star!
+
 ## 🚀 Features
 - **Random Word Selection:** Automatically picks a challenge from a predefined word list.
 - **ASCII Art Visuals:** Displays the hangman status dynamically using ASCII graphics.
@@ -29,6 +31,8 @@ To run this game, ensure you have the following file in the same directory:
 ## 📂 Project Structure
 - `main.py`: The core game logic and loop.
 - `hangman_art.py`: Graphics and word database.
+
+If you found this helpful, consider giving it a ⭐!
 
 ## 🕹 How to Play
 1. Clone this repository:
