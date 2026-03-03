@@ -1,8 +1,9 @@
 import os
 import random
 import hangman_art
+
 word_random = random.choice(hangman_art.words)
-print(word_random)
+
 blank = []
 for i in word_random :    
     blank.append('_')     
@@ -10,17 +11,13 @@ print(blank)
 end_game = False
 life = 7
 while not end_game :
-    guess = input('Please geuss one Letter of this Word :')
-
-
-    
+    guess = input('Please guess one Letter of this Word :')
     count = 0
     for i in word_random :
         if i == guess :
             blank[count] = guess
             os.system('clear')
         count += 1  
-
 
     if '_' not in blank  :
         end_game = True
