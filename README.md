@@ -19,4 +19,8 @@ A classic **Hangman** game implemented in Python. Test your vocabulary by guessi
 ## 🕹️ How to Play
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/Python-Majid/Hangman.git
+   'git clone' https://github.com/Python-Majid/Hangman.git
+   'cd Hangman'
+   'python main.py'
+
+
