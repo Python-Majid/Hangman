@@ -29,13 +29,14 @@ while not end_game :
         life += 1
         os.system('clear')
         hang_open = True
-        
+        # hang_open  : baray inke sharte pain bargharar bashad.
     guessed.append(guess)
     if  hang_open : 
         print(f'{hangman_art.HANGMANPICS[life]}')   
 
     blank_str = ''
     for i in blank:
+        #blank_str = blank_str+i  <--- 1.rahhal digar : blank_str += i
         blank_str += i 
     print(blank_str)
 
